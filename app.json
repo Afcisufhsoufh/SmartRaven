@@ -1,0 +1,40 @@
+{
+  "name": "BioLink-Protector",
+  "description": "Telegram bot BioLink-Protector by TheSmartDevs",
+  "repository": "https://github.com/TheSmartDevs/BioLink-Protector",
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID",
+      "value": "Your_API_ID_Here"
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash",
+      "value": "Your_API_HASH_Here"
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram Bot Token",
+      "value": "Your_BOT_TOKEN_Here"
+    },
+    "OWNER_ID": {
+      "description": "Owner User ID",
+      "value": "Your_OWNER_ID_Here"
+    },
+    "MONGO_URL": {
+      "description": "MongoDB connection URL",
+      "value": "Your_MONGO_URL_Here"
+    },
+    "COMMAND_PREFIX": {
+      "description": "Command prefixes separated by |",
+      "value": "!|.|#|,|/"
+    },
+    "UPDATE_CHANNEL_URL": {
+      "description": "Telegram channel URL for updates",
+      "value": "t.me/TheSmartDev"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
